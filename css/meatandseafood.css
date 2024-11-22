@@ -1,0 +1,194 @@
+#btn {
+    background-color: orange;
+    border: none;
+    height: 36px;
+    width: 360px;
+    font-weight: bold;
+    border-radius: 26px;
+    font-family:  'Julius Sana One';
+    font-size: 20px;
+}
+
+#btn:hover {
+    color: #fff;
+}
+
+.container1{
+    position: relative;
+    min-width: 90%;
+    margin: 20px 200px auto auto auto;
+}
+
+#main{
+    width: 100%;
+    height: auto;
+}
+
+img{
+    width: 90%;
+    height: auto;
+}
+
+.overlay1{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.meat_overlay1 { /*------------*/
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#home, #color{
+    color: #fff;
+}
+
+.overlay2, .meat_overlay2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 15%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#overlayP{
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#overlayMeat {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: auto;
+}
+
+.vegimg1, .vegimg2, .vegimg3,
+.vegimg4, .vegimg5, .vegimg6, 
+.vegimg7, .vegimg8, .vegimg9,
+.vegimg10, .vegimg11, .vegimg12,
+.vegimg13, .vegimg14, .vegimg15,
+.vegimg16, .vegimg17, .vegimg18,
+.vegimg19, .vegimg20, .vegimg21,
+.vegimg22, .vegimg23, .vegimg24,
+.vegimg25{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 1.5px solid #333;
+    width: 250px;
+}
+
+.vegimg1:hover, .vegimg2:hover, .vegimg3:hover, 
+.vegimg4:hover, .vegimg5:hover, .vegimg6:hover,
+.vegimg7:hover, .vegimg8:hover, .vegimg9:hover, 
+.vegimg10:hover, .vegimg11:hover, .vegimg13:hover,
+.vegimg14:hover, .vegimg15:hover, .vegimg16:hover, 
+.vegimg17:hover, .vegimg18:hover, .vegimg19:hover,
+.vegimg20:hover, .vegimg21:hover, .vegimg22:hover, 
+.vegimg23:hover, .vegimg24:hover, .vegimg25:hover{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.rs{
+    color: green;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn{
+    height: 36px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+#vege, #meat{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 135px;
+}
+
+#para, #meatpara{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 165, 0);
+    border-radius: 20px;
+    padding: 26px;
+}
+
+.map-container {
+    margin-left: 180px;
+}    
+
+.products{
+    margin: 20px 200px auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product, .container1{
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*==================================================================================*/

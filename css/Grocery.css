@@ -1,0 +1,320 @@
+/*Grocery*/
+.container{
+    position: relative;
+    min-width: 100%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay1{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.overlay2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#overlayP{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#Grocery{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 135px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: auto;
+}
+
+.grossimg1, .grossimg2, .grossimg3,
+.grossimg4, .grossimg5, .grossimg6, 
+.grossimg7, .grossimg8, .grossimg9, 
+.grossimg10, .grossimg11, .grossimg12, 
+.grossimg13, .grossimg14, .grossimg15, 
+.grossimg16, .grossimg17, .grossimg18, 
+.grossimg19, .grossimg20, .grossimg21, 
+.grossimg22, .grossimg23, .grossimg24, 
+.grossimg25, .grossimg26, .grossimg27, 
+.grossimg28, .grossimg29, .grossimg30, 
+.grossimg31, .grossimg32, .grossimg33, 
+.grossimg34, .grossimg35, .grossimg36, 
+.grossimg37, .grossimg38, .grossimg39, 
+.grossimg40, .grossimg41, .grossimg42, 
+.grossimg43, .grossimg44, .grossimg45, 
+.grossimg46, .grossimg47, .grossimg48, 
+.grossimg49, .grossimg50, .grossimg51, 
+.grossimg52, .grossimg53, .grossimg54, 
+.grossimg55, .grossimg56, .grossimg57{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 200px;
+}
+
+.grossimg1:hover, .grossimg2:hover, .grossimg3:hover,
+.grossimg4:hover, .grossimg5:hover, .grossimg6:hover, 
+.grossimg7:hover, .grossimg8:hover, .grossimg9:hover, 
+.grossimg10:hover, .grossimg11:hover, .grossimg12:hover, 
+.grossimg13:hover, .grossimg14:hover, .grossimg15:hover, 
+.grossimg16:hover, .grossimg17:hover, .grossimg18:hover, 
+.grossimg19:hover, .grossimg20:hover, .grossimg21:hover, 
+.grossimg22:hover, .grossimg23:hover, .grossimg24:hover, 
+.grossimg25:hover, .grossimg26:hover, .grossimg27:hover, 
+.grossimg28:hover, .grossimg29:hover, .grossimg30:hover, 
+.grossimg31:hover, .grossimg32:hover, .grossimg33:hover, 
+.grossimg34:hover, .grossimg35:hover, .grossimg36:hover, 
+.grossimg37:hover, .grossimg38:hover, .grossimg39:hover, 
+.grossimg40:hover, .grossimg41:hover, .grossimg42:hover{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+#rs{
+    color: green;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn{
+    height: 36px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.overlay3{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-40%, -50%);
+    color: #fff;
+}
+
+#home{
+    background-color: rgb(173, 173, 173);
+    border-radius: 12px;
+    height: 10px;
+}
+
+/*Cosmetics Page CSS*/
+.cos-container{
+    position: relative;
+    min-width: 100%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#cos-home:hover{
+    color: #fff;
+}
+
+.overlay6{
+    font-weight: bold;
+    position: absolute;
+    top: 55%;
+    right: 18%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    text-align: left;
+}
+
+#overlayC{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+#Cosmetices{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 135px;
+}
+
+#cosh1{
+    font-size: 22px;
+    margin-left: 135px;
+}
+
+#cospara{
+    text-align: center;
+    width: 75%;
+    margin-left: 155px;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 165, 0);
+    border-radius: 20px;
+    padding: 26px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td{
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th, td{
+    padding: 15px;
+    text-align: left;
+}
+
+th{
+    background: #f2f2f2;
+}
+
+/*Dairy Products page CSS*/
+#dairy{
+    font-weight: bold;
+    font-size: 22px;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    font-size: 26px;
+}
+
+.products{
+    margin: 20px 200px auto;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product{
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 1px 2px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.porduct h3{
+    margin: 10px 0;
+}
+
+.para{
+    text-align: center;
+    width: 75%;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 165, 0);
+    padding: 26px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+#para{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 165, 0);
+    border-radius: 20px;
+    padding: 26px;
+}
+
+
+.dayimg1, .dayimg2, .dayimg3,
+.dayimg4, .dayimg5, .dayimg6,
+.dayimg7, .dayimg8, .dayimg9,
+.dayimg10, .dayimg11, .dayimg12,
+.dayimg13, .dayimg14, .dayimg15,
+.dayimg16, .dayimg17, .dayimg18,
+.dayimg19, .dayimg20, .dayimg21,
+.dayimg22, .dayimg23, .dayimg24,
+.dayimg25, .dayimg26, .dayimg27,
+.dayimg28, .dayimg29, .dayimg30,
+.dayimg31, .dayimg32, .dayimg33,
+.dayimg34, .dayimg35, .dayimg36,
+.dayimg37, .dayimg38, .dayimg39,
+.dayimg40, .dayimg41, .dayimg42,
+.dayimg43, .dayimg44, .dayimg45{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 200px;
+}
+
+.dayimg1:hover, .dayimg2:hover, .dayimg3:hover,
+.dayimg4:hover, .dayimg5:hover, .dayimg6:hover,
+.dayimg7:hover, .dayimg8:hover, .dayimg9:hover,
+.dayimg10:hover, .dayimg11:hover, .dayimg12:hover,
+.dayimg13:hover, .dayimg14:hover, .dayimg15:hover,
+.dayimg16:hover, .dayimg17:hover, .dayimg18:hover,
+.dayimg19:hover, .dayimg20:hover, .dayimg21:hover,
+.dayimg22:hover, .dayimg23:hover, .dayimg24:hover,
+.dayimg25:hover, .dayimg26:hover, .dayimg27:hover,
+.dayimg28:hover, .dayimg29:hover, .dayimg30:hover,
+.dayimg31:hover, .dayimg32:hover, .dayimg33:hover,
+.dayimg34:hover, .dayimg35:hover, .dayimg36:hover,
+.dayimg37:hover, .dayimg38:hover, .dayimg39:hover,
+.dayimg40:hover, .dayimg41:hover, .dayimg42:hover,
+.dayimg43:hover, .dayimg44:hover, .dayimg45:hover{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    color: #000;
+}

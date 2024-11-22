@@ -1,0 +1,376 @@
+:root{
+    --main-bg-color: rgb(255, 165, 0);
+    --main-table-color: rgb(255, 191, 0);
+    --main-border-color: rgb(255, 255, 255);
+/*form box colors*/
+    --main-fbg-color: rgb(235, 233, 233);
+    --main-bbg-color: rgb(172, 172, 172);
+}
+
+/*Home page CSS*/
+.container{
+    position: relative;
+    max-width: 100%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.497);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.meat_overlay {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    color: green;
+}
+
+h2{
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 15%;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#main1{
+    background-color: rgba(23, 23, 23, 0.563);
+    width: 50%;
+}
+
+#day{
+    margin-left: 100px;
+    width: 90%;
+    text-align: justify;
+}
+
+#day2{
+    margin-left: 200px;
+    text-align: justify;
+}
+
+#p2{
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    width: 80%;
+    margin-left: 150px;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#p10{
+    text-align: center;
+    padding-left: 150px;
+}
+
+.featured{
+    background-color: var(--main-bg-color);
+    font-size: 1.5em;
+    text-align: center;
+    width: 90%;
+    align-items: center;
+    margin-left: 75px;
+    display: block;
+    border-radius: 26px;
+}
+
+h5{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: #000;
+    font-size: 25px;
+}
+
+#sec1img01, #sec1img02, #sec1img03, #sec1img04, #sec1img05{
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+#sec2img01, #sec2img02, #sec2img03, #sec2img04, #sec2img05{
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+#sec3img01, #sec3img02, #sec3img03, #sec3img04, #sec3img05{
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+.section1, .section2, .section3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: auto;
+}
+
+.grossimg1, .grossimg2, .grossimg3, .grossimg4, .grossimg5,
+.vegimg1, .vegimg2, .vegimg3, .vegimg4, .vegimg5,
+.dayimg1, .dayimg2, .dayimg3, .dayimg4, .dayimg5 {
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: auto;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.grossimg1:hover, .grossimg2:hover, .grossimg3:hover, .grossimg4:hover, .grossimg5:hover,
+.vegimg1:hover, .vegimg2:hover, .vegimg3:hover, .vegimg4:hover, .vegimg5:hover,
+.dayimg1:hover, .dayimg2:hover, .dayimg3:hover, .dayimg4:hover, .dayimg5:hover {
+    box-shadow: 0 10px 12px p rgba(0, 0, 0, 0);
+    color: #333;
+}
+
+#rs {
+    color: green;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.gross_btn, .veg_btn, .day_btn {
+    height: 36px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.gross_btn:hover, .veg_btn:hover, .day_btn:hover {
+    color: #fff;
+}
+
+/*About Us page CSS*/
+#About-Us{
+    font-size: 2em;
+    margin-left: 150px;
+    
+}
+
+#para{
+    width: 80%;
+    text-align: justify;
+    font-size: 18px;
+    margin: auto;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+section{
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.branch{
+    margin-bottom: 20px;
+}
+
+.branch iframe{
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    background-color: #333;
+    color: #fff;
+}
+
+tfoot td{
+    font-weight: bold;
+    text-align: center;
+}
+
+h6{
+    font-size: 26px;
+}
+
+/*Product Page*/
+#imgb1{
+    width: 500px;
+    border: 2px solid #000;
+}
+
+.btn{
+    height: 36px;
+    width: 350px;
+    margin-top: 100px;
+    background-color: var(--main-bg-color);
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 36px;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+sub{
+    font-size: 1.5rem;
+    margin-left: 36px;
+    margin-bottom: 100px;
+}
+
+.price{
+    margin-left: 36px;
+    font-size: 20px;
+    color: green;
+}
+
+/*Contact Us*/
+.help{
+    margin-left: 150px;
+}
+
+.store{
+    margin-left: 150px;
+}
+
+.comment_btn{
+    width: 200px;
+    float: left;
+    margin-left: 150px;
+    height: 36px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: bold;
+    background-color: #ebe9e9;
+}
+
+.comment_btn:hover, .complaints_btn:hover{
+    background-color: var(--main-bg-color);
+}
+
+.complaints_btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bold;
+    background-color: var(--main-fbg-color);
+}
+
+#contact-box{
+    background-color: var(--main-fbg-color);
+    width: 70%;
+    padding-left: 20px;
+}
+
+#categories{
+    background-color: var(--main-bbg-color);
+    border: 1px solid rgb(245, 240, 240);
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+#fname2{
+    height: 30px;
+    width: 450px;
+    background-color: var();
+    border: 1px solid var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+#lname{
+    height: 30px;
+    width: 450px;
+    background-color: var();
+    border: 1px solid var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+#address{
+    height: 30px;
+    width: 450px;
+    background-color: var();
+    border: var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+#number{
+    height: 30px;
+    width: 450px;
+    background-color: var();
+    border: 1px solid var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+#email1{
+    height: 30px;
+    width: 450px;
+    background-color: var();
+    border: 1px solid var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+#msg{
+    height: 75px;
+    width: 1000px;
+    background-color: var();
+    border: 1px solid var(--main-bbg-color);
+    border-radius: 20px;
+}
+
+.submit{
+    width: 200px;
+    height: 36px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: var(--main-bg-color);
+}

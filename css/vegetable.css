@@ -1,0 +1,134 @@
+.container{
+    position: relative;
+    min-width: 100%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.overlay1{
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.overlay2{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: end;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#overlayP{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 65px;
+    height: 30px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.vegimg1, .vegimg2, .vegimg3,
+.vegimg4, .vegimg5, .vegimg6, 
+.vegimg7, .vegimg8, .vegimg9,
+.vegimg10, .vegimg11, .vegimg12,
+.vegimg13, .vegimg14, .vegimg15,
+.vegimg16, .vegimg17, .vegimg18,
+.vegimg19, .vegimg20, .vegimg21,
+.vegimg22, .vegimg23, .vegimg24,
+.vegimg25, .vegimg26, .vegimg27,
+.vegimg28, .vegimg29, .vegimg30,
+.vegimg31, .vegimg32, .vegimg33,
+.vegimg34, .vegimg35, .vegimg36,
+.vegimg37, .vegimg38, .vegimg39,
+.vegimg40, .vegimg41, .vegimg42,
+.vegimg43, .vegimg44, .vegimg45{
+    background-color: transparent;
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 200px;
+}
+
+.vegimg1:hover, .vegimg2:hover, .vegimg3:hover, 
+.vegimg4:hover, .vegimg5:hover, .vegimg6:hover,
+.vegimg7:hover, .vegimg8:hover, .vegimg9:hover, 
+.vegimg10:hover, .vegimg11:hover, .vegimg13:hover,
+.vegimg14:hover, .vegimg15:hover, .vegimg16:hover, 
+.vegimg17:hover, .vegimg18:hover, .vegimg19:hover,
+.vegimg20:hover, .vegimg21:hover, .vegimg22:hover, 
+.vegimg23:hover, .vegimg24:hover, .vegimg25:hover,
+.vegimg26:hover, .vegimg27:hover, .vegimg28:hover, 
+.vegimg29:hover, .vegimg30:hover, .vegimg31:hover,
+.vegimg32:hover, .vegimg33:hover, .vegimg34:hover, 
+.vegimg35:hover, .vegimg36:hover, .vegimg37:hover,
+.vegimg38:hover, .vegimg39:hover, .vegimg40:hover, 
+.vegimg41:hover, .vegimg42:hover, .vegimg43:hover,
+.vegimg44:hover, .vegimg45:hover, .vegimg12:hover{
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+    color: #000;
+}
+
+.rs{
+    color: green;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.btn{
+    height: 36px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+#vege{
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 135px;
+}
+
+#para{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgb(255, 165, 0);
+    border-radius: 20px;
+    padding: 26px;
+}
+
+.map-container {
+    margin-left: 180px;
+}    

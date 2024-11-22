@@ -1,0 +1,106 @@
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(255, 165, 0);
+    border-top-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
+}
+
+form{
+    margin-top: 20px;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.benifts{
+    margin-top: 20px;
+}
+
+.benifts h2{
+    margin-bottom: 10px;
+}
+
+.benifts ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#submit{
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+    padding: 10px;
+    background-color: rgb(255, 165, 0);
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#submit:hover{
+    color: #000;
+    background-color: rgb(255, 165, 0, 0.8);
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+.benifits{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.flex-box1, .flex-box2, .flex-box3{
+    background-color: rgb(255, 165, 0);
+    box-shadow: 0 20px 12px 0 rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+}
+
+.flex-box1:hover, .flex-box2:hover, .flex-box3:hover{
+    background-color: rgb(255, 165, 0, 0.7);
+}
+
+
+ul{
+    text-align: left;
+}
