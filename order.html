@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/header_nav.css">
+    <link rel="stylesheet" href="css/new.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="favicon_package_v0.16/site.webmanifest">
+    <link rel="mask-icon" href="favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Order</title>
+</head>
+<body>
+    <!--Header-->
+    <div class="header">
+        <img src="images/logo.png" id="logo" alt="logo">
+        <h1>Arya's Grocery</h1>
+        <div class="image">
+            <a href="loyalty reg.html"><img id="loyal" src="images/Baggy.png" alt="Baggy's Loyalties"></a>
+        </div>
+    </div>
+    <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <div class="dropdown">
+            <button class="dropdown">Categories <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="DairyProducts.html">Dairy Products</a>
+                <a href="Vegetables.html">Vegetables</a>
+                <a href="Grocery.html">Grocery</a>
+                <a href="meatAndseafood.html">Meat and Seafoods</a>
+                <a href="fruits.html">Fruits</a>
+            </div>
+        </div>
+        <li><a href="order.html">Orders</a></li>
+    </ul>
+    <!--content-->
+        <section>
+            <h2>Fruits</h2>
+            <div class="grid">
+                <div class="vegimg1">
+                    <img src="fruits/Pic01.jpg" alt="dayimg1">
+                    <h3>BananaAmbul</h3>
+                    <p>Rs 320.00</p>
+                    <label for="BananaAmbul">Quantity</label><br><br>
+                    <input type="number" id="bananaambul" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('BananaAmbul', 320, 'bananaambul', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg2">
+                    <img src="fruits/Pic02.jpg" alt="dayimg2">
+                    <h3>BananaSeeni</h3>
+                    <p>Rs 260.00</p>
+                    <label for="BananaSeeni">Quantity</label><br><br>
+                    <input type="number" id="bananaSeeni" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('BananaSeeni', 260, 'bananaSeeni', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg3">
+                    <img src="fruits/Pic03.jpg" alt="dayimg3">
+                    <h3>Dragon Fruit (Pitaya)</h3>
+                    <p>Rs 1,200.00</p>
+                    <label for="DragonFruit">Quantity</label><br><br>
+                    <input type="number" id="dragonFruit" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Dragon Fruit (Pitaya)', 1200, 'dragonFruit', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg4">
+                    <img src="fruits/Pic04.jpg" alt="dayimg4">
+                    <h3>Durian</h3>
+                    <p>Rs 290.00</p>
+                    <label for="Durian">Quantity</label><br><br>
+                    <input type="number" id="durian" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Durian', 290, 'durian', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg5">
+                    <img src="fruits/Pic05.jpg" alt="dayimg5">
+                    <h3>Guava</h3>
+                    <p>Rs 250.00</p>
+                    <label for="Guava">Quantity</label><br><br>
+                    <input type="number" id="guava" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Guava', 250, 'guava', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg6">
+                    <img src="fruits/Pic06.jpg" alt="dayimg6">
+                    <h3>Mandarin-Local (Jama Naran)</h3>
+                    <p>Rs 1,290.00</p>
+                    <label for="MandarinLocal">Quantity</label><br><br>
+                    <input type="number" id="mandarinLocal" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Mandarin-Local (Jama Naran)', 1290, 'mandarinLocal', true)">Add to Cart</button><br><br>
+                </div>
+            </div>
+            <h2>Vegetables</h2>
+            <div class="grid">
+                <div class="vegimg1">
+                    <img src="Vegetables/Pic1.jpg" alt="dayimg1">
+                    <h3>Oraginic Dambala</h3>
+                    <p>Rs 1,250.00</p>
+                    <label for="OraginicDambala">Quantity</label><br><br>
+                    <input type="number" id="oraginicDambala" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Dambala', 1250, 'oraginicDambala', true)">Add to Cart</button><br><br>
+                </div>
+                <div class="vegimg2">
+                    <img src="Vegetables/Pic2.jpg" alt="dayimg2">
+                    <h3>Oraginic Green Chilies</h3>
+                    <p>Rs 760.00</p>
+                    <label for="OraginicGreenChilies">Quantity</label><br><br>
+                    <input type="number" id="oraginicGreenChilies" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Green Chilies', 760, 'oraginicGreenChilies', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg3">
+                    <img src="Vegetables/Pic3.jpg" alt="dayimg3">
+                    <h3>Oraginic Ladies Fingers</h3>
+                    <p>Rs 420.00</p>
+                    <label for="OraginicLadiesFingers">Quantity</label><br><br>
+                    <input type="number" id="oraginicLadiesFingers" name="qty" min="1" ><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Ladies Fingers', 420, 'oraginicLadiesFingers', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg4">
+                    <img src="Vegetables/Pic4.jpg" alt="dayimg4">
+                    <h3>Oraginic Leeks</h3>
+                    <p>Rs 720.00</p>
+                    <label for="OraginicLeeks">Quantity</label><br><br>
+                    <input type="number" id="oraginicLeeks" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Leeks', 720, 'oraginicLeeks', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg5">
+                    <img src="Vegetables/Pic5.jpg" alt="dayimg5">
+                    <h3>Oraginic Potato</h3>
+                    <p>Rs 880.00</p>
+                    <label for="OraginicPotato">Quantity</label><br><br>
+                    <input type="number" id="oraginicPotato" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Potato', 880, 'oraginicPotato', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg6">
+                    <img src="Vegetables/Pic6.jpg" alt="dayimg6">
+                    <h3>Oraginic Potato</h3>
+                    <p>Rs 620.00</p>
+                    <label for="OraginicPotato">Quantity</label><br><br>
+                    <input type="number" id="oraginicPotato2" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Oraginic Potato', 620, 'oraginicPotato2', true)">Add to Cart</button>
+                </div>
+            </div>
+            <h2>Dairy Produce</h2>
+            <div class="grid">
+                <div class="vegimg1">
+                    <img src="Dairy Products/Pic1.jpg" alt="dayimg1">
+                    <h3>H/Cow Cheese Portion Gegular 200g</h3>
+                    <p>Rs 1,790.00</p>
+                    <label for="CheesePortionGegular200g">Quantity</label><br><br>
+                    <input type="number" id="cheesePortionGegular200g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('H/Cow Cheese Portion Gegular 200g', 1790, 'cheesePortionGegular200g')">Add to Cart</button><br><br>
+                </div>
+                <div class="vegimg2">
+                    <img src="Dairy Products/Pic2.jpg" alt="dayimg2">
+                    <h3>Kraft Cheese Pkt 250g</h3>
+                    <p>Rs 2,750.00</p>
+                    <label for="KraftCheesePkt250g">Quantity</label><br><br>
+                    <input type="number" id="kraftCheesePkt250g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Kraft Cheese Pkt 250g', 2750, 'kraftCheesePkt250g')">Add to Cart</button>
+                </div>
+                <div class="vegimg3">
+                    <img src="Dairy Products/Pic3.jpg" alt="dayimg3">
+                    <h3>H/Cow Cheese Slices Regular 200g</h3>
+                    <p>Rs 1,780.00</p>
+                    <label for="CheeseSlicesRegular200g">Quantity</label><br><br>
+                    <input type="number" id="cheeseSlicesRegular200g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('H/Cow Cheese Slices Regular 200g', 1780, 'cheeseSlicesRegular200g')">Add to Cart</button>
+                </div>
+                <div class="vegimg4">
+                    <img src="Dairy Products/Pic4.jpg" alt="dayimg4">
+                    <h3>H/Cow Diet Cheese Slices 200g</h3>
+                    <p>Rs 1,780.00</p>
+                    <label for="DietCheeseSlices200g">Quantity</label><br><br>
+                    <input type="number" id="dietCheeseSlices200g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('H/Cow Diet Cheese Slices 200g', 1780, 'dietCheeseSlices200g')">Add to Cart</button>
+                </div>
+                <div class="vegimg5">
+                    <img src="Dairy Products/Pic5.jpg" alt="dayimg5">
+                    <h3>Kotmale Ball Cheese</h3>
+                    <p>Rs 1,980.00</p>
+                    <label for="KotmaleBallCheese">Quantity</label><br><br>
+                    <input type="number" id="kotmaleBallCheese" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Kotmale Ball Cheese', 1980, 'kotmaleBallCheese')">Add to Cart</button>
+                </div>
+                <div class="vegimg6">
+                    <img src="Dairy Products/Pic6.jpg" alt="dayimg6">
+                    <h3>Kotmale Processed Cheese 200g</h3>
+                    <p>Rs 950.00</p>
+                    <label for="KotmaleProcessedCheese200g">Quantity</label><br><br>
+                    <input type="number" id="kotmaleProcessedCheese200g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Kotmale Processed Cheese 200g', 950, 'kotmaleProcessedCheese200g')">Add to Cart</button>
+                </div>
+            </div>
+            <h2>Meat and Seafood</h2>
+            <div class="grid">
+                <div class="vegimg1">
+                    <img src="meat/Pic01.jpg" alt="dayimg1">
+                    <h3>Elephant House Mutton Cubes 250g</h3>
+                    <p>Rs 1,775.00</p>
+                    <label for="ElephantHouseMuttonCubes250g">Quantity</label><br><br>
+                    <input type="number" id="elephantHouseMuttonCubes250g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Elephant House Mutton Cubes 250g', 1775, 'elephantHouseMuttonCubes250g')">Add to Cart</button><br><br>
+                </div>
+                <div class="vegimg2">
+                    <img src="meat/Pic02.jpg" alt="dayimg2">
+                    <h3>BBQ Spare Ribs Sheets</h3>
+                    <p>Rs 3,950.00</p>
+                    <label for="BBQSpareRibsSheets">Quantity</label><br><br>
+                    <input type="number" id="bbqSpareRibsSheets" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('BBQ Spare Ribs Sheets', 3950, 'bbqSpareRibsSheets', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg3">
+                    <img src="meat/Pic03.jpg" alt="dayimg3">
+                    <h3>Aust. Lamb Leg</h3>
+                    <p>Rs 4,990.00</p>
+                    <label for="AustLambLeg">Quantity</label><br><br>
+                    <input type="number" id="austLambLeg" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Aust. Lamb Leg', 4990, 'austLambLeg', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg4">
+                    <img src="meat/Pic04.jpg" alt="dayimg4">
+                    <h3>Bone In Curry Pork</h3>
+                    <p>Rs 2,100.00</p>
+                    <label for="BoneInCurryPork">Quantity</label><br><br>
+                    <input type="number" id="boneInCurryPork" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Bone In Curry Pork', 2100, 'boneInCurryPork', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg5">
+                    <img src="meat/Pic05.jpg" alt="dayimg5">
+                    <h3>Curry Pork Rind On Boneless</h3>
+                    <p>Rs 2,214.00</p>
+                    <label for="CurryPorkRindOnBoneless">Quantity</label><br><br>
+                    <input type="number" id="curryPorkRindOnBoneless" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Curry Pork Rind On Boneless', 2214, 'curryPorkRindOnBoneless', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg6">
+                    <img src="meat/Pic06.jpg" alt="dayimg6">
+                    <h3>Pork Belly (Boneless)</h3>
+                    <p>Rs 2,570.00</p>
+                    <label for="PorkBelly">Quantity</label><br><br>
+                    <input type="number" id="porkBelly" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Pork Belly (Boneless)', 2570, 'porkBelly', true)">Add to Cart</button>
+                </div>
+            </div>
+            <h2>Baking and Cooking Ingredients</h2>
+            <div class="grid">
+                <div class="vegimg1">
+                    <img src="bakery/Pic01.jpg" alt="dayimg1">
+                    <h3>Cheese And Onion Bread</h3>
+                    <p>Rs 385.00</p>
+                    <label for="CheeseAndOnionBread">Quantity</label><br><br>
+                    <input type="number" id="cheeseAndOnionBread" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Cheese And Onion Bread', 385, 'cheeseAndOnionBread', true)">Add to Cart</button><br><br>
+                </div>
+                <div class="vegimg2">
+                    <img src="bakery/Pic02.jpg" alt="dayimg2">
+                    <h3>French Bread</h3>
+                    <p>Rs 295.00</p>
+                    <label for="FrenchBread">Quantity</label><br><br>
+                    <input type="number" id="frenchBread" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('French Bread', 295, 'frenchBread', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg3">
+                    <img src="bakery/Pic03.jpg" alt="dayimg3">
+                    <h3>Sandwich Bread 450g</h3>
+                    <p>Rs 280.00</p>
+                    <label for="SandwichBread450g">Quantity</label><br><br>
+                    <input type="number" id="sandwichBread450g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Sandwich Bread 450g', 280, 'sandwichBread450g')">Add to Cart</button>
+                </div>
+                <div class="vegimg4">
+                    <img src="bakery/Pic04.jpg" alt="dayimg4">
+                    <h3>Sandwich Bread 750g</h3>
+                    <p>Rs 380.00</p>
+                    <label for="SandwichBread750g">Quantity</label><br><br>
+                    <input type="number" id="sandwichBread750g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Sandwich Bread 750g', 380, 'sandwichBread750g')">Add to Cart</button>
+                </div>
+                <div class="vegimg5">
+                    <img src="bakery/Pic05.jpg" alt="dayimg5">
+                    <h3>Roast Bread</h3>
+                    <p>Rs 135.00</p>
+                    <label for="RoastBread">Quantity</label><br><br>
+                    <input type="number" id="roastBread" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Roast Bread', 135, 'roastBread', true)">Add to Cart</button>
+                </div>
+                <div class="vegimg6">
+                    <img src="bakery/Pic06.jpg" alt="dayimg6">
+                    <h3>Top Crust Bread 450g</h3>
+                    <p>Rs 149.00</p>
+                    <label for="TopCrustBread450g">Quantity</label><br><br>
+                    <input type="number" id="topCrustBread450g" name="qty" min="1"><br><br>
+                    <button class="btn" onclick="addToCart('Top Crust Bread 450g', 149, 'topCrustBread450g')">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+<br>
+    <!-- Cart Table and Summary -->
+
+    <h2>Shopping Cart</h2>
+    <table id="aryatable">
+        <tr>
+            <th>Item</th>
+            <th>Qty/kg</th>
+            <th>Price</th>
+        </tr>
+    </table>
+<br>
+<br>
+<br><br><br>
+    <div class="js_btn">
+        <button class="btn1" onclick="addToFavourite();">Add to Favorite</button>
+        <button class="btn2" onclick="applyToFavourite()">Apply to Favorite</button>
+        <button class="btn3" onclick="buyNow()">Buy Now</button>
+    </div>
+
+<br><br>
+    <!--Footer-->
+    <footer>
+        <div class="logo">
+            <p id="p3">Arya's Grocery</p>
+        </div>
+        <div class="address_num">
+            <h3 id="h3"><i class="fa-solid fa-phone-flip"></i> +94760410725</h3>
+            <p id="p1">(Daily operating hours 8.00a.m. to 8.00p.m)</p>
+        </div>
+        <div class="quicklink1">
+            <li><h4 id="h4">Quick Links</h4></li>
+            <li><a href="index.html" class="as1">Home</a></li>
+            <li><a href="DairyProducts.html">Dairy Products</a></li>
+            <li><a href="Vegetables.html">Vegetables</a></li>
+        </div>
+        <div class="quicklink2">
+            <li><h4 id="h4">Categories</h4></li>
+            <li><a href="Grocery.html">Grocery</a></li>
+            <li><a href="DairyProducts.html">Dairy Products</a></li>
+            <li><a href="Vegetables.html">Vegetables</a></li>
+            <li><a href="meatAndseafood.html">Meat and Seafoods</a></li>
+            <li><a href="fruits.html">Fruits</a></li>
+        </div>
+    </footer>
+    <div class="copyright">
+        <p id="p4">Copyright © 2024 Arya's Grocery. All Rights Reserved</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
